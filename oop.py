@@ -48,7 +48,7 @@ class ShoppingCart:
     def calculate_total(self):
         total=0
         for item in self.items:
-            total += item[1]
+            total += int(item[1])
         return total
 
 cart=ShoppingCart()
